@@ -164,6 +164,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #F6F6F6;
 }
 nav {
   margin: 20px 0;
@@ -175,9 +176,13 @@ nav a {
   text-transform: uppercase;
   margin: auto 20px;
 }
+nav a:hover {
+  color: black;
+}
 @media (max-width: 500px) {
   nav a {
-    margin: auto 10px;
+    margin: auto 5px;
+    font-size: 1.6rem;
   }
 }
 .logo {
@@ -322,4 +327,62 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .moon {
+    display: none;
+  }
+}
+.form1 {
+  width: 100%;
+}
+.form1 h1 {
+  font-size: 45px;
+  margin: 25px 0 15px 0;
+}
+.form1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+}
+.form1 input {
+  padding: 10px 40px;
+  margin: 20px auto;
+  color: black;
+  font-size: 1.8rem;
+}
+.form1 label {
+  font-size: 1.8rem;
+  padding: 10px 40px;
+  margin: 0 auto;
+}
+.form1 button {
+  padding: 20px 40px;
+  margin: 40px 20px;
+}
+.form1 p {
+  text-align: center;
+}
+.cancelbtn {
+  background: black;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+.cancelbtn:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+.signupbtn {
+  background: white;
+  color: black;
+  font-size: 1.8rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.signupbtn:hover {
+  background: black;
+  color: white;
 }
