@@ -34,13 +34,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+----Adaptive websites widths are hard coded and Responsive websites use units throughout the entire website!-----
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+
+----They both depend on the work flow of the UX designer Mobile 1st or Desktop 1st the goal is to complete the project pixel perfect-----
+
+
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+------font-size: 62.5% is set to compensate for the Browser default font size to make the rem conversion simple!-------
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+
+------ preprocessing allows you generate CSS from the preprocessor's own unique syntax, to remove action of having to repeat your self on every line-------
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+
+-----My favorite concept in preprocessing are `mixins` the ability to create a syntax i'll remember ad use it across my project make life easy.------
+
+
+------ i've had a few issues with nesting but I think thats just me getting overwhelm with everything I'm doing!------
+
+
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -58,13 +84,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
