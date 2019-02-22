@@ -1,1 +1,33 @@
 // Mixins Here
+
+//Nav
+.navcenter() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-btn(){
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+// button
+
+.newbtn(){
+  padding:10px 20px;
+  background: black;
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  &:hover{
+    background:white;
+    border: 2px solid black;
+    color: black;
+    padding:10px 20px;
+    margin: 20px 0;
+  }
+
+}

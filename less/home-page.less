@@ -3,6 +3,16 @@
 .home {
 
   .intro {
+    .hero{
+      @media @mobile{
+        img{
+        width: 100%
+        }
+      }
+      img{
+        border-radius: 5px;
+      }
+    }
 
     h2 {
       padding: 15px;
@@ -11,7 +21,7 @@
     p {
       padding:0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -24,6 +34,17 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+    @media @mobile{
+      .blast{
+        width: 100%;
+      }
+      .sky{
+        display: none;
+      }
+      .launch{
+        display: none;
+      }
     }
   }
 
@@ -46,7 +67,19 @@
     display: flex;
     justify-content: center;
 
+    @media @mobile{
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 20px 0;
+    }
+
     .walk-text {
+      @media @mobile{
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 10px;
+      }
       width: 50%;
 
       h3 {
@@ -58,17 +91,35 @@
       }
 
       .btn {
+        @media @mobile{
+          width: 100%;
+          padding: 20px 0;
+
+        }
+
+        .newbtn()
+
       }
     }
+
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+      @media @mobile{
+        width: 100%;
+        padding: 0 10px;
+        margin: 0;
+        img{
+          width: 100%;
+        }
+      }
+
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
       }
     }
   }
