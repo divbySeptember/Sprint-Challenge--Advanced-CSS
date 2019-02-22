@@ -181,7 +181,8 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   nav a {
-    margin: auto 10px;
+    margin: auto 5px;
+    font-size: 1.6rem;
   }
 }
 .logo {
@@ -359,6 +360,9 @@ footer {
 .form1 button {
   padding: 20px 40px;
   margin: 40px 20px;
+}
+.form1 p {
+  text-align: center;
 }
 .cancelbtn {
   background: black;
